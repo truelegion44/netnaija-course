@@ -1,6 +1,6 @@
 // strings
 
-
+/*
 console.log('hello, world');
 
 let email = 'pepe@gmail.com'
@@ -51,7 +51,8 @@ console.log(fullname.length);
  
 //let result = email1.replace('e','a')
 
-//console.log(result); 
+console.log(result); 
+*/
 
 
 // template strings
@@ -62,6 +63,21 @@ const likes = 30;
 
 // concatination strings
 
-let result = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes';
+/*let result = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes';
 console.log(result);
 document.write(result);
+*/
+
+// Template string ways 
+
+let result = `The blog called ${title} by ${author} has ${likes} likes ` ;
+console.log(result);
+
+// CREATING HTML TEMPLATES
+let HTML = `
+
+<h2>${author}</h2>
+
+`;
+console.log(HTML)
+
