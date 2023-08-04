@@ -1,6 +1,6 @@
 // strings
 
-/*
+
 console.log('hello, world');
 
 let email = 'pepe@gmail.com'
@@ -52,7 +52,7 @@ console.log(fullname.length);
 //let result = email1.replace('e','a')
 
 //console.log(result); 
-*/
+
 
 // template strings
 
