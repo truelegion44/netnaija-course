@@ -23,9 +23,18 @@
 
 let i =5;
 
-do{
-  console.log('val of i is: ', i);
-  i++;
-} while( i < 5) {
-  
-}
+//do{
+ // console.log('val of i is: ', i);
+ // i++;}// while( i < 5) {}
+
+ const grade ='D'
+ 
+ 
+ switch (grade) {
+  case 'A':
+    console.log('you got an a ')
+    break;
+ 
+  default:
+    break;
+ }
